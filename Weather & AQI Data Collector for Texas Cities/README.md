@@ -17,4 +17,8 @@ This project uses **Airflow** to automatically fetch real-time weather and air q
 - **OpenWeatherMap API**: Source of weather and air quality data  
 
 ## Data Source
-This project uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch real-time weather and air quality data for Texas cities.S
+This project uses the [OpenWeatherMap API](https://openweathermap.org/api) to fetch real-time weather and air quality data for Texas cities.
+
+![Airflow DAG run screenshot](images/airflow_dag_run.png)
+*Screenshot showing that the DAG `texas_weather_aqi_daily` ran successfully in Airflow.*
+
